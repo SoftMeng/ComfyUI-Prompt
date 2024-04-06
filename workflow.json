@@ -1,0 +1,97 @@
+{
+  "last_node_id": 2,
+  "last_link_id": 1,
+  "nodes": [
+    {
+      "id": 2,
+      "type": "ShowText|pysssss",
+      "pos": [
+        811,
+        173
+      ],
+      "size": {
+        "0": 489.29296875,
+        "1": 196.09765625
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 1,
+          "widget": {
+            "name": "text"
+          },
+          "label": "文本"
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": null,
+          "shape": 6,
+          "label": "字符串"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        "",
+        "3D Stereo Matrix style of Retro Vector Graphics - Geometry Wars (game),drawing with Line segments and vector grid,Realm of fire with molten lava and volcanic landscapes,Beautiful scenery,A velvety darkness envelopes,Color Vibrancy,"
+      ]
+    },
+    {
+      "id": 1,
+      "type": "ComfyUI_Prompt",
+      "pos": [
+        330,
+        172
+      ],
+      "size": {
+        "0": 315,
+        "1": 106
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "text_positive",
+          "type": "STRING",
+          "links": [
+            1
+          ],
+          "shape": 3,
+          "label": "text_positive",
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ComfyUI_Prompt"
+      },
+      "widgets_values": [
+        "随机",
+        "",
+        "Yes"
+      ]
+    }
+  ],
+  "links": [
+    [
+      1,
+      1,
+      0,
+      2,
+      0,
+      "STRING"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {},
+  "version": 0.4
+}
